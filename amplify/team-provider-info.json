@@ -1,26 +1,32 @@
 {
-  "dev": {
-    "awscloudformation": {
-      "AuthRoleName": "amplify-amplifyapprob-dev-182222-authRole",
-      "UnauthRoleArn": "arn:aws:iam::796623057770:role/amplify-amplifyapprob-dev-182222-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::796623057770:role/amplify-amplifyapprob-dev-182222-authRole",
-      "Region": "eu-west-1",
-      "DeploymentBucketName": "amplify-amplifyapprob-dev-182222-deployment",
-      "UnauthRoleName": "amplify-amplifyapprob-dev-182222-unauthRole",
-      "StackName": "amplify-amplifyapprob-dev-182222",
-      "StackId": "arn:aws:cloudformation:eu-west-1:796623057770:stack/amplify-amplifyapprob-dev-182222/b41c9920-7144-11eb-84bd-025c02592c7f",
-      "AmplifyAppId": "d2gcaay76f2zn7"
-    },
-    "categories": {
-      "auth": {
-        "amplifyapprob2982306c": {}
-      },
-      "function": {
-        "amplifyPizzaRob": {
-          "deploymentBucketName": "amplify-amplifyapprob-dev-182222-deployment",
-          "s3Key": "amplify-builds/amplifyPizzaRob-42337a43462b624c4c53-build.zip"
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-amplifyapprob-dev-182222-authRole",
+            "UnauthRoleArn": "arn:aws:iam::796623057770:role/amplify-amplifyapprob-dev-182222-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::796623057770:role/amplify-amplifyapprob-dev-182222-authRole",
+            "Region": "eu-west-1",
+            "DeploymentBucketName": "amplify-amplifyapprob-dev-182222-deployment",
+            "UnauthRoleName": "amplify-amplifyapprob-dev-182222-unauthRole",
+            "StackName": "amplify-amplifyapprob-dev-182222",
+            "StackId": "arn:aws:cloudformation:eu-west-1:796623057770:stack/amplify-amplifyapprob-dev-182222/b41c9920-7144-11eb-84bd-025c02592c7f",
+            "AmplifyAppId": "d2gcaay76f2zn7"
+        },
+        "categories": {
+            "auth": {
+                "amplifyapprob2982306c": {}
+            },
+            "function": {
+                "amplifyPizzaRob": {
+                    "deploymentBucketName": "amplify-amplifyapprob-dev-182222-deployment",
+                    "s3Key": "amplify-builds/amplifyPizzaRob-42337a43462b624c4c53-build.zip"
+                }
+            },
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d2gcaay76f2zn7",
+                    "type": "cicd"
+                }
+            }
         }
-      }
     }
-  }
 }
