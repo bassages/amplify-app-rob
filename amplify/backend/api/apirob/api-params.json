@@ -1,0 +1,42 @@
+{
+    "paths": [
+        {
+            "name": "/pizzas",
+            "lambdaFunction": "amplifyPizzaRob",
+            "privacy": {
+                "private": true,
+                "auth": [
+                    "/POST",
+                    "/GET",
+                    "/PUT",
+                    "/PATCH",
+                    "/DELETE"
+                ]
+            },
+            "policyResourceName": "/pizzas"
+        }
+    ],
+    "resourceName": "apirob",
+    "apiName": "apirob",
+    "functionArns": [
+        {
+            "lambdaFunction": "amplifyPizzaRob"
+        }
+    ],
+    "privacy": {
+        "auth": 1,
+        "unauth": 0,
+        "authRoleName": "amplify-amplifyapprob-dev-182222-authRole",
+        "unAuthRoleName": "amplify-amplifyapprob-dev-182222-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "amplifyPizzaRob",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

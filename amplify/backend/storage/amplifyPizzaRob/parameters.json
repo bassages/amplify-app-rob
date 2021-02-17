@@ -1,0 +1,5 @@
+{
+    "tableName": "amplifyPizzaRob",
+    "partitionKeyName": "id",
+    "partitionKeyType": "S"
+}
